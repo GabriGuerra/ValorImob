@@ -1,0 +1,67 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment variables
+.env
+
+# Data folders (raw or processed)
+data/
+*.csv
+*.xlsx
+*.parquet
+*.json
+
+# Application folders (if used for deployment or UI)
+app/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Reports and outputs
+*.pdf
+*.html
+*.png
+*.jpg
+
+# Test coverage reports
+htmlcov/
+coverage.xml
+.cache/
+
+# MyPy and other static analysis
+.mypy_cache/
+.pytype/
+
+# Ignore expanded folders not in use
+# (based on your project tree)
+valorimob/src/etl/__pycache__/
+valorimob/src/features/__pycache__/
+valorimob/src/models/__pycache__/
+valorimob/src/reports/__pycache__/
